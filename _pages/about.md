@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a research assistant professor in department of electrical and electronic engineering at the University of Hong Kong (HKU), where I closely work with Prof. Ngai Wong. Previously, I received my Ph.D. degree in the school of integrated circuits of Tsinghua University (THU), under the supervision of Prof. Huaqiang Wu and B.Eng. degree in microelectronics at University of Electronic Science and Technology of China (UESTC).
+I am a research assistant professor in department of electrical and electronic engineering at the University of Hong Kong (HKU), where I closely work with Prof. Ngai Wong. Previously, I received my Ph.D. degree in the school of integrated circuits of Tsinghua University (THU) and B.Eng. degree in microelectronics at University of Electronic Science and Technology of China (UESTC).
 
 My research interests include compute-in-memory, brain-computer interface and biomedical information processing.
 
