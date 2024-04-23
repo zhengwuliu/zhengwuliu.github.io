@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a research assistant professor in department of electrical and electronic engineering at the University of Hong Kong (HKU). Previously, I received my Ph.D. degree in the school of integrated circuits of Tsinghua University (THU) in 2023 and B.Eng. degree in microelectronics at University of Electronic Science and Technology of China (UESTC) in 2018.
+I am currently a Research Assistant Professor in the Department of Electrical and Electronic Engineering at the University of Hong Kong (HKU). I earned my Ph.D. degree from the School of Integrated Circuits at Tsinghua University (THU) in 2023, following my Bachelor of Engineering degree in Microelectronics from the University of Electronic Science and Technology of China (UESTC) in 2018.
 
 My research interests include compute-in-memory, brain-computer interface and biomedical information processing.
 
