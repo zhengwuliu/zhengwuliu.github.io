@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in computer science department at the University of Hong Kong (HKU), also affiliated with mmlab@HKU, fortunately advised by Prof. Ping Luo. Previously, I received my M.Eng. degree in the software school of Tsinghua University (THU) and B.Eng. degree in the microelectronics department of Fudan University (FDU).
+I am a research assistant professor in department of electrical and electronic engineering at the University of Hong Kong (HKU), where I fortunately work with Prof. Ngai Wong. Previously, I received my M.Eng. degree in the software school of Tsinghua University (THU) and B.Eng. degree in the microelectronics department of Fudan University (FDU).
 
 My research interests include compute-in-memory, brain-computer interface and biomedical information processing.
 
