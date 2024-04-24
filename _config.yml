@@ -1,4 +1,4 @@
-uu# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -8,13 +8,13 @@ uu# Welcome to Jekyll!
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhengwu Liu / Personal homepage"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Zhengwu Liu"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://zhengwuliu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zhengwuliu/zhengwuliu.github.io"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,20 +22,20 @@ repository               : "zhengwuliu/zhengwuliu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zhengwu Liu"
+  name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "University of Hong Kong"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "zwliu@eee.hku.hk" 
+  email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=N5wxla0AAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/0000-0001-7968-9469"
-#  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            : "http://orcid.org/yourorcidurl"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
