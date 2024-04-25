@@ -14,6 +14,21 @@ My research interests include compute-in-memory, brain-computer interface and bi
 <!-- 这是一个注释，它将不会显示在最终输出中 -->
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
+Awards
+=====
+- ‘IOP Trusted Reviewer’ status, Institute of Physics (IOP) Publishing, 2024
+- Integrated Circuit Talent Development Scholarship, China Education Development Foundation, 2023
+- President WANG Dazhong Scholarship, Tsinghua University, 2022
+- Integrated Circuit Scholarship, Chinese Institute of Electronics, 2022
+- National Scholarship for Postgraduates, Ministry of Education, PRC, 2020
+- National Scholarship for Undergraduates, Ministry of Education, PRC, 2016
+
+Professional services
+======
+- Reviewer: Journal of Neural Engineering, Scientific Reports, The Journal of Supercomputing, etc.
+- TPC Member: ICCAD (2023)
+
+
 Selected publications
 ======
 
@@ -25,14 +40,8 @@ Selected publications
 
 - H. Zhao#, **Z. Liu**#, J. Tang, B. Gao, Y. Zhou, P. Yao, Y. Xi, H. Qian, H. Wu, “Implementation of Discrete Fourier Transform using RRAM Arrays with Quasi-Analog Mapping for High-Fidelity Medical Image Reconstruction”, [IEDM Tech. Dig.](https://ieeexplore.ieee.org/document/9720547), 12.4.1-12.4.4 (2021).
 
-Awards
-=====
-- ‘IOP Trusted Reviewer’ status, Institute of Physics (IOP) Publishing, 2024
-- Integrated Circuit Talent Development Scholarship, China Education Development Foundation, 2023
-- President WANG Dazhong Scholarship, Tsinghua University, 2022
-- Integrated Circuit Scholarship, Chinese Institute of Electronics, 2022
-- National Scholarship for Postgraduates, Ministry of Education, PRC, 2020
-- National Scholarship for Undergraduates, Ministry of Education, PRC, 2016
+
+
 
 <!-- 
 A data-driven personal website
