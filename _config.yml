@@ -21,7 +21,7 @@ repository               : "zhengwuliu/zhengwuliu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg" #"profile.png"
   name             : "Zhengwu Liu (刘正午)"
   pronouns         : # example: "she/her"  
   bio              : "Research Assistant Professor at The University of Hong Kong"
