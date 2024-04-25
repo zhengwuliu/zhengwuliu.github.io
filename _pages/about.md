@@ -26,13 +26,12 @@ Selected publications
 
 Awards
 =====
-- 
-	‘IOP Trusted Reviewer’ status, Institute of Physics (IOP) Publishing, 2024
-	Integrated Circuit Talent Development Scholarship, China Education Development Foundation, 2023
-	President WANG Dazhong Scholarship, Tsinghua University, 2022
-	Integrated Circuit Scholarship, Chinese Institute of Electronics, 2022
-	National Scholarship for Postgraduates, Ministry of Education, PRC, 2020
-	National Scholarship for Undergraduates, Ministry of Education, PRC, 2016
+- ‘IOP Trusted Reviewer’ status, Institute of Physics (IOP) Publishing, 2024
+- Integrated Circuit Talent Development Scholarship, China Education Development Foundation, 2023
+- President WANG Dazhong Scholarship, Tsinghua University, 2022
+- Integrated Circuit Scholarship, Chinese Institute of Electronics, 2022
+- National Scholarship for Postgraduates, Ministry of Education, PRC, 2020
+- National Scholarship for Undergraduates, Ministry of Education, PRC, 2016
 
 <!-- 
 A data-driven personal website
