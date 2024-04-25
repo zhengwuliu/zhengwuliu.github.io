@@ -13,7 +13,7 @@ My research interests include compute-in-memory, brain-computer interface and bi
 
 News
 =====
-- In March 2024, In March 2024, we released a collaborative [preprint](https://www.researchsquare.com/article/rs-3966063/v1).
+- In March 2024, we released a collaborative [preprint](https://www.researchsquare.com/article/rs-3966063/v1).
 
 Awards
 =====
