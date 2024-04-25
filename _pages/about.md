@@ -25,8 +25,10 @@ Awards
 
 Professional services
 ======
-- Reviewer: Journal of Neural Engineering, Scientific Reports, The Journal of Supercomputing, etc.
-- TPC Member: ICCAD (2023)
+- Reviewer:
+      - Journal of Neural Engineering, Scientific Reports, The Journal of Supercomputing, etc.
+- TPC Member:
+      - ICCAD (2023)
 
 
 Selected publications
