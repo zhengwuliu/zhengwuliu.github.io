@@ -24,6 +24,16 @@ Selected publications
 
 [4]	H. Zhao#, **Z. Liu**#, J. Tang**, B. Gao, Y. Zhou, P. Yao, Y. Xi, H. Qian, H. Wu**, “Implementation of Discrete Fourier Transform using RRAM Arrays with Quasi-Analog Mapping for High-Fidelity Medical Image Reconstruction”, [IEDM Tech. Dig.](https://ieeexplore.ieee.org/document/9720547), 12.4.1-12.4.4 (2021).
 
+Awards
+=====
+- 
+	‘IOP Trusted Reviewer’ status, Institute of Physics (IOP) Publishing, 2024
+	Integrated Circuit Talent Development Scholarship, China Education Development Foundation, 2023
+	President WANG Dazhong Scholarship, Tsinghua University, 2022
+	Integrated Circuit Scholarship, Chinese Institute of Electronics, 2022
+	National Scholarship for Postgraduates, Ministry of Education, PRC, 2020
+	National Scholarship for Undergraduates, Ministry of Education, PRC, 2016
+
 <!-- 
 A data-driven personal website
 ======
