@@ -32,7 +32,7 @@ Professional services
    - ICCAD (2023)
 
 
-Selected publications
+Representative publications
 ======
 
 - **Z. Liu**, J. Tang, B. Gao, P. Yao, X. Li, D. Liu, Y. Zhou, H. Qian, B. Hong, H. Wu, “Neural Signal Analysis with Memristor Arrays Towards High-Efficiency Brain-Machine Interfaces”, [Nature Comm.](http://www.nature.com/articles/s41467-020-18105-4), 11, 4234 (2020).
