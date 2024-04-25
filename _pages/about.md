@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Assistant Professor in the Department of Electrical and Electronic Engineering at the [University of Hong Kong](https://hku.hk) (HKU), where I closely work with Prof. [Ngai Wong](https://www.eee.hku.hk/~nwong/). I earned my Ph.D. degree from the School of Integrated Circuits at [Tsinghua University](https://www.tsinghua.edu.cn) (THU) in 2023, advised by Prof. [Huaqiang Wu](https://www.sic.tsinghua.edu.cn/en/info/1083/1510.htm), following my Bachelor of Engineering degree in Microelectronics from the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn) (UESTC) in 2018.
+I am currently a Research Assistant Professor in the Department of Electrical and Electronic Engineering at the [University of Hong Kong](https://hku.hk) (HKU). I earned my Ph.D. degree from the School of Integrated Circuits at [Tsinghua University](https://www.tsinghua.edu.cn) (THU) in 2023, following my Bachelor of Engineering degree in Microelectronics from the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn) (UESTC) in 2018.
 
 My research interests include compute-in-memory, brain-computer interface and biomedical information processing.
 
