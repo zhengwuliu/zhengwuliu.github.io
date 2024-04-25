@@ -13,6 +13,7 @@ My research interests include compute-in-memory, brain-computer interface and bi
 
 News
 =====
+- In April 2024, I attended the 2024 International Conference of Brain-On-A-Chip (BOC) in Tianjin, China, where I presented a poster.
 - In March 2024, we released a collaborative [preprint](https://www.researchsquare.com/article/rs-3966063/v1) titled 'Memristor chip-enabled adaptive neuromorphic decoder for co-evolutional brain-computer interfaces'.
 
 Awards
