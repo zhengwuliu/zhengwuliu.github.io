@@ -20,7 +20,7 @@ Selected publications
 
 [2]	**Z. Liu**, J. Tang**, B. Gao, X. Li, P. Yao, Y. Lin, D. Liu, B. Hong, H. Qian, H. Wu**, “Multi-Channel Parallel Processing of Neural Signals in Memristor Arrays”, [Science Adv.](https://doi.org/doi:10.1126/sciadv.abc4797), 6, eabc4797 (2020).
 
-[3]	H. Zhao#, **Z. Liu**#, J. Tang** B. Gao, Q. Qin, J. Li, Y. Zhou, P. Yao, Y. Xi, Y. Lin, H. Qian, H. Wu**. “Energy-efficient high-fidelity image reconstruction with memristor arrays for medical diagnosis”, [Nature Comm.](https://www.nature.com/articles/s41467-023-38021-7), 14, 2276 (2023). 
+[3]	H. Zhao#, **Z. Liu**#, J. Tang**, B. Gao, Q. Qin, J. Li, Y. Zhou, P. Yao, Y. Xi, Y. Lin, H. Qian, H. Wu**. “Energy-efficient high-fidelity image reconstruction with memristor arrays for medical diagnosis”, [Nature Comm.](https://www.nature.com/articles/s41467-023-38021-7), 14, 2276 (2023). 
 
 [4]	H. Zhao#, **Z. Liu**#, J. Tang**, B. Gao, Y. Zhou, P. Yao, Y. Xi, H. Qian, H. Wu**, “Implementation of Discrete Fourier Transform using RRAM Arrays with Quasi-Analog Mapping for High-Fidelity Medical Image Reconstruction”, [IEDM Tech. Dig.](https://ieeexplore.ieee.org/document/9720547), 12.4.1-12.4.4 (2021).
 
