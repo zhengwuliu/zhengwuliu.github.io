@@ -141,7 +141,7 @@ body, td, th {
 
   /* ===== 在它下面紧接着加这段 ===== */
   .bio-card + .bio-card {
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
   }
 
   #Join .bio-card li {
@@ -154,7 +154,17 @@ body, td, th {
     color: #2c3e50;
   }
 
+  .bio-card li + li {
+    margin-top: 0.5rem;
+  }
 
+  .section + .section {
+    margin-top: 4rem;
+  }
+
+  a {
+    transition: color 0.2s ease;
+  }
 
 
   @media (min-width: 576px) {
