@@ -131,6 +131,32 @@ body, td, th {
     max-width: initial;
   }
   
+  /* ===== 找到已有的 bio-card 样式 ===== */
+  .bio-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    /* ... 你已有的样式 ... */
+  }
+
+  /* ===== 在它下面紧接着加这段 ===== */
+  .bio-card + .bio-card {
+    margin-top: 1.5rem;
+  }
+
+  #Join .bio-card li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  #Join .bio-card li strong {
+    font-size: 1.05rem;
+    color: #2c3e50;
+  }
+
+
+
+
   @media (min-width: 576px) {
     .nd-pageheader {
       padding-top:4rem;
