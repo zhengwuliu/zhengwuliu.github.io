@@ -4,24 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <title>Zhengwu Liu - RAP at HKU | Incoming AP at Tsinghua SIGS</title>
+
+    <title>Zhengwu Liu - Assistant Professor at Tsinghua SIGS</title>
+
     <meta name="author" content="Zhengwu Liu">
+    <meta name="description"
+          content="Zhengwu Liu, Assistant Professor at Tsinghua Shenzhen International Graduate School. Research in compute-in-memory, brain-computer interfaces, scientific computing, and AI for healthcare.">
+
     <link rel="shortcut icon" href="img/favicon.jpg">
     <link rel="stylesheet" href="css/modern-style.css">
     <link rel="stylesheet" href="css/all.min.css">
+
     <meta name="generator" content="Hexo 5.4.0">
+
+    <style>
+        /*
+         * MSVD uses the same image layout as the other publications.
+         * If its image is unavailable, show only the journal badge
+         * without a large text placeholder or an empty image area.
+         */
+        .pub-card .pub-image.msvd-no-image {
+            display: block;
+            position: relative;
+            height: auto;
+            min-height: 0;
+            max-height: none;
+            aspect-ratio: auto;
+            padding: 1.25rem 1.5rem 0;
+            background: transparent;
+            overflow: visible;
+            box-sizing: border-box;
+        }
+
+        .pub-card .pub-image.msvd-no-image > img {
+            display: none;
+        }
+
+        .pub-card .pub-image.msvd-no-image::before,
+        .pub-card .pub-image.msvd-no-image::after {
+            display: none;
+        }
+
+        .pub-card .pub-image.msvd-no-image .pub-badge {
+            position: static;
+            display: inline-block;
+            transform: none;
+            margin: 0;
+            max-width: 100%;
+            white-space: normal;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
+
 <body>
     <header id="page_header">
         <div class="header_wrap">
             <div id="blog_name">
-                <a class="blog_title" id="site-name" href="https://zhengwuliu.github.io/">Zhengwu Liu</a>
+                <a class="blog_title"
+                   id="site-name"
+                   href="https://zhengwuliu.github.io/">
+                    Zhengwu Liu
+                </a>
             </div>
-            <button class="menus_icon">
+
+            <button class="menus_icon" aria-label="Toggle navigation">
                 <div class="navicon"></div>
             </button>
-            <ul class="menus_items">
 
+            <ul class="menus_items">
                 <li class="menus_item">
                     <a class="site-page" href="#Biography">About</a>
                 </li>
@@ -39,43 +90,70 @@
     </header>
 
     <main id="page_main">
+        <!-- Profile Sidebar -->
         <div class="side-card sticky">
-            <div class="card-wrap" itemscope itemtype="http://schema.org/Person">
+            <div class="card-wrap"
+                 itemscope
+                 itemtype="https://schema.org/Person">
+
                 <div class="author-avatar">
-                    <img class="avatar-img" src="img/lzw.jpg" onerror="this.onerror=null;this.src='img/lzw.jpg'" alt="avatar">
+                    <img class="avatar-img"
+                         src="img/lzw.jpg"
+                         alt="Zhengwu Liu"
+                         itemprop="image">
                 </div>
+
                 <div class="author-discrip">
-                    <h3>Zhengwu Liu</h3>
-                    <p class="author-bio">Research Assistant Professor</p>
-                    <p class="author-bio">The University of Hong Kong</p>
-                    <p class="author-bio"><strong>Incoming Assistant Professor</strong></p>
-                    <p class="author-bio">Tsinghua SIGS, Fall 2026</p>
+                    <h3 itemprop="name">Zhengwu Liu</h3>
+
+                    <p class="author-bio">
+                        <strong itemprop="jobTitle">Assistant Professor</strong>
+                    </p>
+                    <p class="author-bio" lang="zh-CN">
+                        助理教授 · 博士生导师 · 特别研究员
+                    </p>
+
+                    <p class="author-bio">Tsinghua University</p>
+                    <p class="author-bio">
+                        Shenzhen International Graduate School
+                    </p>
+                    <p class="author-bio">
+                        Institute of Data and Information
+                    </p>
                 </div>
+
                 <div class="author-links is-close">
                     <button class="btn m-social-links">Links</button>
 
                     <ul class="social-links">
                         <li>
-                            <a class="e-social-link" href="https://www.ece.hku.hk/people/zhengwu-liu/" target="_blank">
-                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
-                                <span>HKU ECE</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="e-social-link" href="https://scholar.google.com/citations?user=N5wxla0AAAAJ&hl=en" target="_blank">
-                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            <a class="e-social-link"
+                               href="https://scholar.google.com/citations?user=N5wxla0AAAAJ&hl=en"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fas fa-graduation-cap"
+                                   aria-hidden="true"></i>
                                 <span>Google Scholar</span>
                             </a>
                         </li>
+
                         <li>
-                            <a class="e-social-link" href="https://orcid.org/0000-0001-7968-9469" target="_blank">
-                                <i class="fab fa-orcid" aria-hidden="true"></i>
+                            <a class="e-social-link"
+                               href="https://orcid.org/0000-0001-7968-9469"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fab fa-orcid"
+                                   aria-hidden="true"></i>
                                 <span>ORCID</span>
                             </a>
                         </li>
+
                         <li>
-                            <a class="e-social-link" href="mailto:zwliu@eee.hku.hk" target="_blank">
-                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a class="e-social-link"
+                               href="mailto:liuzw@sz.tsinghua.edu.cn"
+                               itemprop="email">
+                                <i class="fas fa-envelope"
+                                   aria-hidden="true"></i>
                                 <span>Email</span>
                             </a>
                         </li>
@@ -84,12 +162,20 @@
             </div>
         </div>
 
-        <div class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="page"
+             itemscope
+             itemtype="https://schema.org/CreativeWork">
             <article>
                 <!-- Hero Section -->
                 <section class="hero-section">
-                    <h1 class="hero-title">Neuromorphic Computing & Brain-Computer Interfaces</h1>
-                    <p class="hero-subtitle">Bridging artificial intelligence and neuroscience through memristor-based computing</p>
+                    <h1 class="hero-title">
+                        Compute-in-Memory &amp; Brain-Computer Interfaces
+                    </h1>
+                    <p class="hero-subtitle">
+                        Developing energy-efficient computing systems for
+                        scientific computing, artificial intelligence,
+                        and healthcare
+                    </p>
                 </section>
 
                 <!-- Biography Section -->
@@ -98,46 +184,95 @@
                         <span class="title-decoration"></span>
                         About Me
                     </h2>
+
                     <div class="bio-content">
                         <p class="highlight-text">
-                            I am currently a Research Assistant Professor in the Department of Electrical and Computer Engineering at the University of Hong Kong. I will join Tsinghua Shenzhen International Graduate School, Tsinghua University, as an Assistant Professor in Fall 2026. I received my Ph.D. from Tsinghua University in 2023 and B.E. from the University of Electronic Science and Technology of China in 2018.
+                            I am an Assistant Professor at the Institute of
+                            Data and Information, Tsinghua Shenzhen International
+                            Graduate School (SIGS), Tsinghua University.
+                            I joined Tsinghua SIGS in September 2026.
+                            Previously, I was a Research Assistant Professor
+                            at the University of Hong Kong.
+                            I received my Ph.D. from Tsinghua University in 2023
+                            and my B.E. from the University of Electronic Science
+                            and Technology of China in 2018.
                         </p>
+
                         <p class="highlight-text">
-                            My research focuses on memristor-based neuromorphic computing, compute-in-memory (CIM) chips, brain-computer interfaces (BCIs), AI hardware accelerators and AI healthcare.
+                            My research focuses on compute-in-memory (CIM)
+                            chips and brain-computer interfaces (BCIs),
+                            with an emphasis on memristor-based computing.
+                            I explore chip design and algorithm–hardware
+                            co-design for energy-efficient scientific computing,
+                            AI acceleration, biomedical signal processing,
+                            and intelligent healthcare.
                         </p>
 
                         <div class="bio-card">
                             <h3>Academic Highlights</h3>
                             <ul>
-                                <li>Published in Nature Electronics, Nature Communications, Science Advances, IEDM, DAC and etc.</li>
-                                <li>PI of projects funded by Hong Kong RGC and NSFC</li>
+                                <li>
+                                    Published in Nature Electronics,
+                                    Nature Communications, Science Advances,
+                                    IEDM, DAC, and other leading journals
+                                    and conferences
+                                </li>
+                                <li>
+                                    PI of projects funded by Hong Kong RGC
+                                    and NSFC
+                                </li>
                             </ul>
                         </div>
-
-                        <p class="highlight-text">
-                        </p>
 
                         <div class="bio-card">
                             <h3>Selected Awards</h3>
                             <ul>
-                                <li>Forbes 30 Under 30 Asia (Healthcare &amp; Science), 2026</li>
-                                <li>HUANAO China BCI Prize Rising Star Award, 2025</li>
-                                <li>Falling Walls Science Breakthrough of the Year, Shortlist (Engineering &amp; Technology), 2025</li>
-                                <li>China Top 10 Semiconductor Research Achievements, 2025</li>
-                                <li>China Society of Image and Graphics (CSIG) Outstanding Doctoral Dissertation Award, 2025</li>
-                                <li>China Major Science, Technology and Engineering Advancements, 2020</li>
+                                <li>
+                                    Forbes 30 Under 30 Asia
+                                    (Healthcare &amp; Science), 2026
+                                </li>
+                                <li>
+                                    HUANAO China BCI Prize Rising Star Award,
+                                    2025
+                                </li>
+                                <li>
+                                    Falling Walls Science Breakthrough of the Year,
+                                    Shortlist (Engineering &amp; Technology), 2025
+                                </li>
+                                <li>
+                                    China Top 10 Semiconductor Research
+                                    Achievements, 2025
+                                </li>
+                                <li>
+                                    China Society of Image and Graphics (CSIG)
+                                    Outstanding Doctoral Dissertation Award, 2025
+                                </li>
+                                <li>
+                                    China Major Science, Technology and
+                                    Engineering Advancements, 2020
+                                </li>
                             </ul>
                         </div>
-
-                        <p class="highlight-text">
-                        </p>
 
                         <div class="bio-card">
                             <h3>Professional Services</h3>
                             <ul>
-                                <li>TPC member: ICCAD (2023-2025), ASPDAC (2025-2026)</li>
-                                <li>Editorial Board: Scientific Reports (Springer Nature), IET Circuits, Devices & Systems (Wiley), BPEX (IOP Publishing), BMEF (a Science partner journal, junior), AI for Science (IOP Publishing, junior), etc.</li>
-                                <li>Reviewer: Nature Communications, Nano Letters, Journal of Neural Engineering, etc.</li>
+                                <li>
+                                    TPC member: ICCAD (2023–2025),
+                                    ASPDAC (2025–2026)
+                                </li>
+                                <li>
+                                    Editorial Board:
+                                    Scientific Reports (Springer Nature),
+                                    IET Circuits, Devices &amp; Systems (Wiley),
+                                    BPEX (IOP Publishing),
+                                    BMEF (a Science partner journal, junior),
+                                    AI for Science (IOP Publishing, junior), etc.
+                                </li>
+                                <li>
+                                    Reviewer: Nature Electronics,
+                                    Nature Communications, Science Advances
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -149,35 +284,88 @@
                         <span class="title-decoration"></span>
                         Recent News
                     </h2>
-                    
+
                     <div class="news-timeline">
-                        
+                        <!-- MSVD Publication -->
+                        <div class="news-item">
+                            <div class="news-date">Sep 2026</div>
+                            <div class="news-content">
+                                <span class="news-badge nature">
+                                    Nature Communications
+                                </span>
+                                Paper on
+                                <a href="https://www.nature.com/articles/s41467-026-76272-2"
+                                   target="_blank"
+                                   rel="noopener noreferrer">memristive singular value decomposition</a>
+                                published.
+                            </div>
+                        </div>
+
+                        <!-- IEDM 2026 Acceptance -->
+                        <div class="news-item">
+                            <div class="news-date">Sep 2026</div>
+                            <div class="news-content">
+                                <span class="news-badge conference">
+                                    IEDM 2026
+                                </span>
+                                One paper accepted at IEDM 2026.
+                            </div>
+                        </div>
+
+                        <!-- Appointment -->
+                        <div class="news-item">
+                            <div class="news-date">Sep 2026</div>
+                            <div class="news-content">
+                                <span class="news-badge conference">
+                                    Tsinghua SIGS
+                                </span>
+                                Joined Tsinghua Shenzhen International
+                                Graduate School as an Assistant Professor.
+                                We are recruiting students and research assistants.
+                                <a href="#Join">Learn more</a>
+                            </div>
+                        </div>
+
                         <div class="news-item">
                             <div class="news-date">Feb 2026</div>
                             <div class="news-content">
-                                <span class="news-badge nature">Science Advances</span>
-                                Paper on secure edge AI system using memristor chips published
+                                <span class="news-badge nature">
+                                    Science Advances
+                                </span>
+                                Paper on a secure edge AI system using
+                                memristor chips published.
                             </div>
                         </div>
+
                         <div class="news-item">
                             <div class="news-date">Nov 2025</div>
                             <div class="news-content">
-                                <span class="news-badge nature">Nature Communications</span>
-                                Paper on memristor-based adaptive ADC published
+                                <span class="news-badge nature">
+                                    Nature Communications
+                                </span>
+                                Paper on memristor-based adaptive ADC
+                                for efficient compute-in-memory published.
                             </div>
                         </div>
+
                         <div class="news-item">
                             <div class="news-date">Feb 2025</div>
                             <div class="news-content">
-                                <span class="news-badge nature">Nature Electronics</span>
-                                Adaptive neuromorphic decoder for BCIs published
+                                <span class="news-badge nature">
+                                    Nature Electronics
+                                </span>
+                                Paper on a memristor-based adaptive decoder
+                                for brain-computer interfaces published.
                             </div>
                         </div>
+
                         <div class="news-item">
                             <div class="news-date">Feb 2025</div>
                             <div class="news-content">
-                                <span class="news-badge conference">DAC 2025</span>
-                                One paper accepted at DAC 2025
+                                <span class="news-badge conference">
+                                    DAC 2025
+                                </span>
+                                One paper accepted at DAC 2025.
                             </div>
                         </div>
                     </div>
@@ -187,47 +375,86 @@
                 <section id="Join" class="section">
                     <h2 class="section-title">
                         <span class="title-decoration"></span>
-                        Join Our Research Group at Tsinghua SIGS / 清华 SIGS 课题组招生
+                        Join Our Research Group at Tsinghua SIGS /
+                        清华 SIGS 课题组招生
                     </h2>
+
                     <div class="bio-content">
                         <p class="highlight-text">
-                            I will join Tsinghua Shenzhen International Graduate School as an Assistant Professor in Fall 2026. We are actively recruiting self-motivated Ph.D. students, Master's students, research assistants, and undergraduate interns.
+                            Our research group at Tsinghua Shenzhen
+                            International Graduate School focuses on
+                            compute-in-memory chips, brain-computer interfaces,
+                            and energy-efficient computing for scientific
+                            and AI applications.
+                            We are actively recruiting self-motivated
+                            Ph.D. students, Master's students,
+                            research assistants, and undergraduate interns.
                         </p>
-                        <div class="bio-card">
-                            <ul>
-                                <li>
-                                    <strong>Ph.D. / Master's Students</strong><br>
-                                    We welcome applicants with backgrounds in electrical engineering, computer science, microelectronics, or neuroscience. Research topics include memristor-based neuromorphic computing, compute-in-memory chip design, brain-computer interfaces, and AI hardware accelerators.
-                                </li>
-                                <li>
-                                    <strong>Research Assistants (Available Now · Remote OK)</strong><br>
-                                    RA positions are open to undergraduates and recent graduates looking to gain research experience. Outstanding RAs will be supported in applying for graduate programs.<br>
-                                </li>
-                            </ul>
-                        </div>
 
                         <div class="bio-card">
                             <ul>
                                 <li>
-                                    <strong>博士 / 硕士研究生</strong><br>
-                                    欢迎电子工程、计算机科学、微电子、神经科学等相关背景的同学申请。研究方向涵盖忆阻器神经形态计算、存算一体芯片设计、脑机接口及AI硬件加速器等。
+                                    <strong>Ph.D. / Master's Students</strong>
+                                    <br>
+                                    We welcome applicants with backgrounds in
+                                    electrical engineering, computer science,
+                                    microelectronics, or neuroscience.
+                                    Research topics include compute-in-memory
+                                    chip design, memristor-based scientific
+                                    computing, brain-computer interfaces,
+                                    AI acceleration, and AI for healthcare.
                                 </li>
                                 <li>
-                                    <strong>研究助理（即日起 · 支持远程）</strong><br>
-                                    欢迎本科生及应届毕业生申请，积累科研经验。表现优异者将优先支持推荐攻读研究生。
+                                    <strong>
+                                        Research Assistants / Undergraduate Interns
+                                        (Available Now · Remote OK)
+                                    </strong>
+                                    <br>
+                                    We welcome undergraduates and recent graduates
+                                    looking to gain research experience.
+                                    Outstanding research assistants and interns
+                                    will receive support in applying for
+                                    graduate programs.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="bio-card" lang="zh-CN">
+                            <ul>
+                                <li>
+                                    <strong>博士 / 硕士研究生</strong>
+                                    <br>
+                                    欢迎电子工程、计算机科学、微电子、神经科学等
+                                    相关背景的同学申请。
+                                    研究方向以存算一体芯片与脑机接口为核心，
+                                    涵盖忆阻器科学计算、AI 加速、
+                                    生物医学信号处理及智能医疗等。
+                                </li>
+                                <li>
+                                    <strong>
+                                        研究助理 / 本科实习生
+                                        （即日起 · 支持远程）
+                                    </strong>
+                                    <br>
+                                    欢迎有科研热情的本科生及应届毕业生申请，
+                                    参与课题研究、积累科研经验。
+                                    表现优异者将获得研究生申请支持与推荐。
                                 </li>
                             </ul>
                         </div>
 
                         <div class="bio-card">
                             <p style="margin-top: 1.5rem; text-align: center; color: #555;">
-                                📧 Please email your CV and research interests to 
-                                <a href="mailto:liuzw18@tsinghua.org.cn;zwliu@eee.hku.hk" style="font-weight: 600; color: #336699;">liuzw18@tsinghua.org.cn;zwliu@eee.hku.hk</a>
+                                📧 Please email your CV and research interests to
+                                <br>
+                                <a href="mailto:liuzw@sz.tsinghua.edu.cn"
+                                   style="font-weight: 600; color: #336699;">
+                                    liuzw@sz.tsinghua.edu.cn
+                                </a>
                             </p>
                         </div>
                     </div>
                 </section>
-
 
                 <!-- Publications Section -->
                 <section id="Publications" class="section">
@@ -236,172 +463,356 @@
                         Featured Research
                     </h2>
 
-
                     <div class="publications-grid">
-                        <!-- Publication 1 -->
+                        <!-- Publication 1: MSVD -->
                         <div class="pub-card">
                             <div class="pub-image">
-                                <img src="img/research/clap.jpg" alt="Secure edge AI Research"
-                                     onerror="this.src='https://via.placeholder.com/400x250/336699/ffffff?text=Secure Edge AI'">
-                                <div class="pub-badge">Science Advances 2026</div>
+                                <img src="img/research/msvd.jpg"
+                                     alt="Memristive singular value decomposition using compute-in-memory chips"
+                                     onerror="this.onerror=null;this.style.display='none';this.parentElement.classList.add('msvd-no-image');">
+
+                                <div class="pub-badge">
+                                    Nature Communications 2026
+                                </div>
                             </div>
+
                             <div class="pub-content">
-                                <h3 class="pub-title">Privacy-preserving data analysis using a memristor chip with colocated authentication and processing</h3>
+                                <h3 class="pub-title">
+                                    Memristive singular value decomposition
+                                </h3>
+
                                 <p class="pub-authors">
-                                    <strong>Zhengwu Liu*</strong>, Zhongrui Wang, Chenchen Ding, Bohan Lin, Jianshi Tang, Bin Gao, Ngai Wong*, and Huaqiang Wu*
+                                    Chenchen Ding†,
+                                    <strong>Zhengwu Liu†*</strong>,
+                                    Yibei Zhang, Can Li, Jianshi Tang,
+                                    Bin Gao, Hao Yu*, Huaqiang Wu*,
+                                    and Ngai Wong*
                                 </p>
+
+                                <div class="pub-tags">
+                                    <span class="tag">Compute-in-Memory</span>
+                                    <span class="tag">Scientific Computing</span>
+                                    <span class="tag">Incremental Learning</span>
+                                    <span class="tag">LLM Adaptation</span>
+                                </div>
+
+                                <div class="pub-links">
+                                    <a href="https://www.nature.com/articles/s41467-026-76272-2"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
+                                    </a>
+
+                                    <a href="https://github.com/Dchenc12/memristive_svd"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fab fa-github"
+                                           aria-hidden="true"></i>
+                                        Code &amp; Data
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Publication 2: Secure Edge AI -->
+                        <div class="pub-card">
+                            <div class="pub-image">
+                                <img src="img/research/clap.jpg"
+                                     alt="Memristor chip for secure edge AI and compute-in-memory"
+                                     onerror="this.onerror=null;this.src='https://via.placeholder.com/400x250/336699/ffffff?text=Secure+Edge+AI'">
+
+                                <div class="pub-badge">
+                                    Science Advances 2026
+                                </div>
+                            </div>
+
+                            <div class="pub-content">
+                                <h3 class="pub-title">
+                                    Privacy-preserving data analysis using a
+                                    memristor chip with colocated authentication
+                                    and processing
+                                </h3>
+
+                                <p class="pub-authors">
+                                    <strong>Zhengwu Liu*</strong>,
+                                    Zhongrui Wang, Chenchen Ding, Bohan Lin,
+                                    Jianshi Tang, Bin Gao, Ngai Wong*,
+                                    and Huaqiang Wu*
+                                </p>
+
                                 <div class="pub-tags">
                                     <span class="tag">Secure AI</span>
-                                    <span class="tag">CIM</span>
-                                    <span class="tag">Physically Unclonable Function (PUF)</span>
+                                    <span class="tag">Compute-in-Memory</span>
+                                    <span class="tag">
+                                        Physically Unclonable Function (PUF)
+                                    </span>
                                 </div>
+
                                 <div class="pub-links">
-                                    <a href="https://www.science.org/doi/10.1126/sciadv.ady5485" target="_blank" class="pub-link">
-                                        <i class="fas fa-link"></i> Paper
+                                    <a href="https://www.science.org/doi/10.1126/sciadv.ady5485"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Publication 2 -->
+                        <!-- Publication 3: Adaptive BCI Decoder -->
                         <div class="pub-card">
                             <div class="pub-image">
-                                <img src="img/research/bci-decoder.jpg" alt="BCI Decoder Research"
-                                     onerror="this.src='https://via.placeholder.com/400x250/336699/ffffff?text=Brain-Computer+Interface'">
-                                <div class="pub-badge">Nature Electronics 2025</div>
+                                <img src="img/research/bci-decoder.jpg"
+                                     alt="Memristor-based adaptive decoder for brain-computer interfaces"
+                                     onerror="this.onerror=null;this.src='https://via.placeholder.com/400x250/336699/ffffff?text=Brain-Computer+Interface'">
+
+                                <div class="pub-badge">
+                                    Nature Electronics 2025
+                                </div>
                             </div>
+
                             <div class="pub-content">
-                                <h3 class="pub-title">A memristor-based adaptive neuromorphic decoder for brain–computer interfaces</h3>
+                                <h3 class="pub-title">
+                                    A memristor-based adaptive neuromorphic
+                                    decoder for brain–computer interfaces
+                                </h3>
+
                                 <p class="pub-authors">
-                                    <strong>Zhengwu Liu†</strong>, Jie Mei†, Jianshi Tang, Minpeng Xu, Bin Gao, Kun Wang, Sanchuang Ding, Qi Liu, Qi Qin, Weize Chen, Yue Xi, Yijun Li, Peng Yao, Han Zhao, Ngai Wong, He Qian, Bo Hong, Tzyy-Ping Jung, Dong Ming, Huaqiang Wu
+                                    <strong>Zhengwu Liu†</strong>, Jie Mei†,
+                                    Jianshi Tang, Minpeng Xu, Bin Gao,
+                                    Kun Wang, Sanchuang Ding, Qi Liu, Qi Qin,
+                                    Weize Chen, Yue Xi, Yijun Li, Peng Yao,
+                                    Han Zhao, Ngai Wong, He Qian, Bo Hong,
+                                    Tzyy-Ping Jung, Dong Ming, Huaqiang Wu
                                 </p>
+
                                 <div class="pub-tags">
                                     <span class="tag">BCI</span>
-                                    <span class="tag">Neuromorphic Computing</span>
-                                    <span class="tag">Co-evolution</span>
+                                    <span class="tag">Memristor Computing</span>
+                                    <span class="tag">Adaptive Decoding</span>
                                 </div>
+
                                 <div class="pub-links">
-                                    <a href="https://www.nature.com/articles/s41928-025-01340-2" target="_blank" class="pub-link">
-                                        <i class="fas fa-link"></i> Paper
+                                    <a href="https://www.nature.com/articles/s41928-025-01340-2"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Publication 3 -->
+                        <!-- Publication 4: Adaptive ADC -->
                         <div class="pub-card">
                             <div class="pub-image">
-                                <img src="img/research/adc.jpg" alt="ADC Research"
-                                     onerror="this.src='https://via.placeholder.com/400x250/2c5f2d/ffffff?text=Adaptive+ADC'">
-                                <div class="pub-badge">Nature Communications 2025</div>
+                                <img src="img/research/adc.jpg"
+                                     alt="Adaptive analog-to-digital conversion for compute-in-memory"
+                                     onerror="this.onerror=null;this.src='https://via.placeholder.com/400x250/2c5f2d/ffffff?text=Adaptive+ADC'">
+
+                                <div class="pub-badge">
+                                    Nature Communications 2025
+                                </div>
                             </div>
+
                             <div class="pub-content">
-                                <h3 class="pub-title">Memristor-based adaptive analog-to-digital conversion for efficient and accurate compute-in-memory</h3>
+                                <h3 class="pub-title">
+                                    Memristor-based adaptive analog-to-digital
+                                    conversion for efficient and accurate
+                                    compute-in-memory
+                                </h3>
+
                                 <p class="pub-authors">
-                                    Haiqiao Hong, Zhiyuan Du, Mingrui Jiang, Ruibin Mao, Yuan Ren, Fuyi Li, Wei Mao, Muyuan Peng, Wei Zhang, <strong>Zhengwu Liu*</strong>, Can Li*, Ngai Wong*
+                                    Haiqiao Hong, Zhiyuan Du, Mingrui Jiang,
+                                    Ruibin Mao, Yuan Ren, Fuyi Li, Wei Mao,
+                                    Muyuan Peng, Wei Zhang,
+                                    <strong>Zhengwu Liu*</strong>,
+                                    Can Li*, Ngai Wong*
                                 </p>
+
                                 <div class="pub-tags">
-                                    <span class="tag">CIM</span>
+                                    <span class="tag">Compute-in-Memory</span>
                                     <span class="tag">ADC</span>
-                                    <span class="tag">AI hardware</span>
+                                    <span class="tag">Mixed-Signal Circuits</span>
                                 </div>
+
                                 <div class="pub-links">
-                                    <a href="https://www.nature.com/articles/s41467-025-65233-w" target="_blank" class="pub-link">
-                                        <i class="fas fa-link"></i> Paper
+                                    <a href="https://www.nature.com/articles/s41467-025-65233-w"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Publication 4 -->
+                        <!-- Publication 5: Medical Imaging -->
                         <div class="pub-card">
                             <div class="pub-image">
-                                <img src="img/research/medical-imaging.jpg" alt="Medical Imaging Research"
-                                     onerror="this.src='https://via.placeholder.com/400x250/7c2d12/ffffff?text=Medical+Imaging'">
-                                <div class="pub-badge">Nature Communications 2023</div>
+                                <img src="img/research/medical-imaging.jpg"
+                                     alt="Energy-efficient medical image reconstruction with memristor arrays"
+                                     onerror="this.onerror=null;this.src='https://via.placeholder.com/400x250/7c2d12/ffffff?text=Medical+Imaging'">
+
+                                <div class="pub-badge">
+                                    Nature Communications 2023
+                                </div>
                             </div>
+
                             <div class="pub-content">
-                                <h3 class="pub-title">Energy-efficient high-fidelity image reconstruction with memristor arrays for medical diagnosis</h3>
+                                <h3 class="pub-title">
+                                    Energy-efficient high-fidelity image
+                                    reconstruction with memristor arrays
+                                    for medical diagnosis
+                                </h3>
+
                                 <p class="pub-authors">
-                                    Han Zhao†, <strong>Zhengwu Liu†</strong>, Jianshi Tang*, Bin Gao, Qi Qin, Jiaming Li, Ying Zhou, Peng Yao, Yue Xi, Yudeng Lin, He Qian, Huaqiang Wu
+                                    Han Zhao†, <strong>Zhengwu Liu†</strong>,
+                                    Jianshi Tang*, Bin Gao, Qi Qin, Jiaming Li,
+                                    Ying Zhou, Peng Yao, Yue Xi, Yudeng Lin,
+                                    He Qian, Huaqiang Wu
                                 </p>
+
                                 <div class="pub-tags">
                                     <span class="tag">Medical Imaging</span>
                                     <span class="tag">Image Reconstruction</span>
                                     <span class="tag">Healthcare AI</span>
                                 </div>
+
                                 <div class="pub-links">
-                                    <a href="https://www.nature.com/articles/s41467-023-38021-7" target="_blank" class="pub-link">
-                                        <i class="fas fa-link"></i> Paper
+                                    <a href="https://www.nature.com/articles/s41467-023-38021-7"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Publication 5 -->
+                        <!-- Publication 6: Brain-Machine Interfaces -->
                         <div class="pub-card">
                             <div class="pub-image">
-                                <img src="img/research/neural-signal.jpg" alt="Neural Signal Analysis"
-                                     onerror="this.src='https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Neural+Signal+Analysis'">
-                                <div class="pub-badge">Nature Communications 2020</div>
+                                <img src="img/research/neural-signal.jpg"
+                                     alt="Neural signal analysis with memristor arrays for brain-machine interfaces"
+                                     onerror="this.onerror=null;this.src='https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Neural+Signal+Analysis'">
+
+                                <div class="pub-badge">
+                                    Nature Communications 2020
+                                </div>
                             </div>
+
                             <div class="pub-content">
-                                <h3 class="pub-title">Neural signal analysis with memristor arrays towards high-efficiency Brain-Computer interfaces</h3>
+                                <h3 class="pub-title">
+                                    Neural signal analysis with memristor arrays
+                                    towards high-efficiency brain-machine interfaces
+                                </h3>
+
                                 <p class="pub-authors">
-                                    <strong>Zhengwu Liu</strong>, Jianshi Tang*, Bin Gao, Peng Yao, Xinyi Li, Dingkun Liu, Ying Zhou, He Qian, Bo Hong*, Huaqiang Wu*
+                                    <strong>Zhengwu Liu</strong>,
+                                    Jianshi Tang*, Bin Gao, Peng Yao,
+                                    Xinyi Li, Dingkun Liu, Ying Zhou,
+                                    He Qian, Bo Hong*, Huaqiang Wu*
                                 </p>
+
                                 <div class="pub-tags">
                                     <span class="tag">Epilepsy</span>
-                                    <span class="tag">BCI</span>
-                                    <span class="tag">Neuromorphic computing</span>
+                                    <span class="tag">Brain-Machine Interfaces</span>
+                                    <span class="tag">Memristor Computing</span>
                                 </div>
+
                                 <div class="pub-links">
-                                    <a href="https://www.nature.com/articles/s41467-020-18105-4" target="_blank" class="pub-link">
-                                        <i class="fas fa-link"></i> Paper
+                                    <a href="https://www.nature.com/articles/s41467-020-18105-4"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Publication 6 -->
+                        <!-- Publication 7: Parallel Neural Signal Processing -->
                         <div class="pub-card">
                             <div class="pub-image">
-                                <img src="img/research/parallel-processing.jpg" alt="Parallel Processing"
-                                     onerror="this.src='https://via.placeholder.com/400x250/be123c/ffffff?text=Parallel+Processing'">
-                                <div class="pub-badge">Science Advances 2020</div>
+                                <img src="img/research/parallel-processing.jpg"
+                                     alt="Multichannel parallel processing of neural signals in memristor arrays"
+                                     onerror="this.onerror=null;this.src='https://via.placeholder.com/400x250/be123c/ffffff?text=Parallel+Processing'">
+
+                                <div class="pub-badge">
+                                    Science Advances 2020
+                                </div>
                             </div>
+
                             <div class="pub-content">
-                                <h3 class="pub-title">Multichannel parallel processing of neural signals in memristor arrays</h3>
+                                <h3 class="pub-title">
+                                    Multichannel parallel processing of
+                                    neural signals in memristor arrays
+                                </h3>
+
                                 <p class="pub-authors">
-                                    <strong>Zhengwu Liu</strong>, Jianshi Tang*, Bin Gao, Xinyi Li, Peng Yao, Yudeng Lin, Dingkun Liu, Bo Hong, He Qian, Huaqiang Wu*
+                                    <strong>Zhengwu Liu</strong>,
+                                    Jianshi Tang*, Bin Gao, Xinyi Li,
+                                    Peng Yao, Yudeng Lin, Dingkun Liu,
+                                    Bo Hong, He Qian, Huaqiang Wu*
                                 </p>
+
                                 <div class="pub-tags">
                                     <span class="tag">BCI</span>
                                     <span class="tag">Multichannel</span>
                                     <span class="tag">Energy Efficiency</span>
                                 </div>
+
                                 <div class="pub-links">
-                                    <a href="https://www.science.org/doi/full/10.1126/sciadv.abc4797" target="_blank" class="pub-link">
-                                        <i class="fas fa-link"></i> Paper
+                                    <a href="https://www.science.org/doi/full/10.1126/sciadv.abc4797"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       class="pub-link">
+                                        <i class="fas fa-link"
+                                           aria-hidden="true"></i>
+                                        Paper
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <p class="publication-note"
+                       style="margin-top: 1.25rem; color: #666; font-size: 0.9rem;">
+                        † Equal contribution.
+                        * Corresponding author.
+                    </p>
                 </section>
 
-
-
-                <p class="last-update">(Last updated in May 2026)</p>
+                <p class="last-update">
+                    (Last updated in September 2026)
+                </p>
             </article>
         </div>
     </main>
 
+    <!-- Floating Navigation -->
     <div class="nav-wrap">
         <div class="nav">
-            <button class="site-nav">
+            <button class="site-nav"
+                    aria-label="Toggle section navigation">
                 <div class="navicon"></div>
             </button>
+
             <ul class="nav_items">
                 <li class="nav_item">
                     <a class="nav-page" href="#Publications">Research</a>
@@ -412,27 +823,42 @@
                 <li class="nav_item">
                     <a class="nav-page" href="#Biography">About</a>
                 </li>
+                <li class="nav_item">
+                    <a class="nav-page" href="#Join">Join</a>
+                </li>
             </ul>
         </div>
+
         <div class="cd-top">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </div>
     </div>
 
+    <!-- Footer -->
     <footer id="page_footer">
         <div class="footer_wrap">
             <div class="theme-info">
                 Powered by
-                <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a>
-                 &
-                <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a>
+                <a target="_blank"
+                   href="https://hexo.io"
+                   rel="nofollow noopener noreferrer">
+                    Hexo
+                </a>
+                &amp;
+                <a target="_blank"
+                   href="https://github.com/PhosphorW/hexo-theme-academia"
+                   rel="nofollow noopener noreferrer">
+                    Academia Theme
+                </a>
 
-                <a href="https://clustrmaps.com/site/1bodk" title="Visit tracker"></a>
+                <a href="https://clustrmaps.com/site/1bodk"
+                   title="Visit tracker"></a>
             </div>
         </div>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false"
+            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.pjax.min.js"></script>
     <script src="js/main.js"></script>
