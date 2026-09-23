@@ -18,6 +18,7 @@
     <meta name="generator" content="Hexo 5.4.0">
 
     <style>
+
         /*
          * MSVD uses the same image layout as the other publications.
          * If its image is unavailable, show only the journal badge
@@ -53,6 +54,29 @@
             max-width: 100%;
             white-space: normal;
             box-sizing: border-box;
+        }
+
+       /*
+        * 新增：拉开截图中红框处的距离
+        */
+
+        /* Academic Highlights、Selected Awards、
+        Professional Services 三块之间的距离 */
+        #Biography .bio-content > .bio-card + .bio-card {
+            margin-top: 2.5rem;
+        }
+
+        /* 小标题和下方列表之间的距离 */
+        #Biography .bio-card > h3 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        /* 统一列表上下外边距 */
+        #Biography .bio-card > ul {
+            margin-top: 0;
+            margin-bottom: 0;
         }
     </style>
 </head>
@@ -204,7 +228,7 @@
                             My research focuses on compute-in-memory (CIM)
                             chips and brain-computer interfaces (BCIs),
                             with an emphasis on memristor-based computing.
-                            I explore chip design and algorithm–hardware
+                            I explore chip design and algorithm-hardware
                             co-design for energy-efficient scientific computing,
                             AI acceleration, biomedical signal processing,
                             and intelligent healthcare.
@@ -220,8 +244,8 @@
                                     and conferences
                                 </li>
                                 <li>
-                                    PI of projects funded by Hong Kong RGC
-                                    and NSFC
+                                    PI of projects funded by NSFC
+                                    and Hong Kong RGC
                                 </li>
                             </ul>
                         </div>
@@ -261,7 +285,7 @@
                             <ul>
                                 <li>
                                     TPC member: ICCAD (2023-2026),
-                                    ASPDAC (2025-2027)
+                                    ASPDAC (2025-2027), DATE(2027)
                                 </li>
                                 <li>
                                     Editorial Board:
@@ -273,7 +297,7 @@
                                 </li>
                                 <li>
                                     Reviewer: Nature Electronics,
-                                    Nature Communications, Science Advances
+                                    Nature Communications, Science Advances, etc
                                 </li>
                             </ul>
                         </div>
